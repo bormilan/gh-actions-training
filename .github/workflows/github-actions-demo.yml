@@ -19,4 +19,4 @@ jobs:
     steps:
       - run: echo "${{ github.event_name }}"
       - run: echo "${{ github.ref_name }}"
-      - run: echo tree
+      - run: tree
